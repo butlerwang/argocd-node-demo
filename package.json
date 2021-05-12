@@ -1,0 +1,31 @@
+{
+  "name": "argocd-node-demo",
+  "version": "1.0.0",
+  "description": "a node demo project for argocd",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butlerwang/argocd-node-demo.git"
+  },
+  "keywords": [
+    "node",
+    "argocd"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/butlerwang/argocd-node-demo/issues"
+  },
+  "homepage": "https://github.com/butlerwang/argocd-node-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "request": "^2.88.2"
+  }
+}
